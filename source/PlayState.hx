@@ -1320,7 +1320,7 @@ class PlayState extends MusicBeatState
 		switch(curSong)
 		{
 			case 'Bopeebo' | 'Philly' | 'Blammed' | 'Cocoa' | 'Eggnog': allowedToHeadbang = true;
-			default: allowedToHeadbang = false;
+			default: allowedToHeadbang = true;
 		}
 		
 		#if windows
